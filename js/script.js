@@ -64,7 +64,7 @@ const showSearch = (data) => {
 
         // Display error if search does not yield results
         if (filteredStudents.length === 0) {
-            errorMessage = `<h1 class="no-results">Search failed successfully!</h1>`
+            errorMessage = `<h1 class="no-results">&#x1f616;  Sorry, no results found</h1>`
             header.insertAdjacentHTML("beforeend", errorMessage);
             linkList.innerHTML = "";
         }
