@@ -7,7 +7,7 @@ FSJS Project 2 - Data Pagination and Filtering
 const data = [
   {
     name: {
-      title: "Miss",
+      title: "Ms",
       first: "Ethel",
       last: "Dean",
     },
